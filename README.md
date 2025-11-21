@@ -6,8 +6,8 @@ Comprenderán y modelarán la arquitectura Von Neumann en lenguaje C, implementa
 
 **Entregables:**
 
-**1.** Simulador funcional de CPU (cpu_simulator.c) con ciclo fetch–decode–execute.
-**2.** Diagrama de arquitectura que muestre los componentes: memoria, ALU, UC y buses
+1. Simulador funcional de CPU (cpu_simulator.c) con ciclo fetch–decode–execute.
+2. Diagrama de arquitectura que muestre los componentes: memoria, ALU, UC y buses
 
 Primera sección del paper:
 - Introducción, justificación, modelo arquitectónico y fundamentos teóricos (Von Neumann, control, memoria, E/S).
@@ -18,8 +18,8 @@ Diseñarán el lenguaje ensamblador propio y programarán en C un traductor ASM 
 
 **Entregables:**
 
-**3.** Ensamblador en C (assembler.c) que traduzca mnemónicos a instrucciones binarias.
-**4.** Programa ASM de prueba (programa.asm) y su correspondiente salida binaria (programa.mem).
+3. Ensamblador en C (assembler.c) que traduzca mnemónicos a instrucciones binarias.
+4. Programa ASM de prueba (programa.asm) y su correspondiente salida binaria (programa.mem).
 
 Segunda sección del paper:
 - Diseño del conjunto de instrucciones (ISA), modos de direccionamiento, estructura del ensamblador y validación experimental.
@@ -31,8 +31,8 @@ Segunda sección del paper:
 
 **Entregables:**
 
-**5.** Programa generador de ASM en C (c_to_asm.c) que traduzca operaciones básicas (asignaciones, estructuras condicionales, ciclos).
-**6.** Diagrama del flujo de traducción: C → ASM → Binario → CPU simulada.
+5. Programa generador de ASM en C (c_to_asm.c) que traduzca operaciones básicas (asignaciones, estructuras condicionales, ciclos).
+6. Diagrama del flujo de traducción: C → ASM → Binario → CPU simulada.
 
 Tercera sección del paper:
 - Abstracción de procedimientos, estructuras de control, parámetros y tipos de datos.
@@ -45,8 +45,8 @@ Tercera sección del paper:
 **Entregables:**
 
 Sistema integrado completo en C:
-**7.** cpu_simulator.c, assembler.c, c_to_asm.c, y programa final (main.c).
-**8.** Ejecución de un programa recursivo (por ejemplo, factorial o Fibonacci).
+7. cpu_simulator.c, assembler.c, c_to_asm.c, y programa final (main.c).
+8. Ejecución de un programa recursivo (por ejemplo, factorial o Fibonacci).
 
 Cuarta y última sección del paper:
 - Resultados experimentales, validación formal, análisis de rendimiento, discusión crítica y conclusiones.
